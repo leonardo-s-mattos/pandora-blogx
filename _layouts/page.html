@@ -1,9 +1,11 @@
---- 
-layout: default 
 ---
-
-    <div class="card">
-        <div class="col-md-8 offset-md-2 offset-md-right">
-        {{ content }}
-         </div>
+layout: default
+---
+<div class="well">
+    {% if page.subtitle %}
+    <h4 class="home-subtitle">{{ page.subtitle }}</h4>
+    {% endif %}
+    <div>
+    	{{ content }}
     </div>
+</div>

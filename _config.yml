@@ -1,169 +1,28 @@
-title: Leo's Pandora box
-subtitle: A list of things that have came out of it
-description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+title: John Smith
+description: My Personal Blog
+author: John Smith
+logo: /hcz-jekyll-blog/static/img/avatar.png
+github: https://github.com/codeasashu
+about: Freelance developer
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
+url: "https://codeasashu.github.io/hcz-jekyll-blog"
 
-urls:
-    - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Contact Me
-      url : /contact
+allowsearch: true
 
-# Edit these details
+disqus_shortname: aboutashu
+google_analytics: UA-72862926-1
 
-author_logo: profile.png
-author: Leo Souza Mattos
-author_bio: Hello, My Name is Leo Souza Mattos. I love to Code and Design. My bio.
-author_email: "leonardo.mattos@gmail.com"
-author_location: Avondale, PA - USA
-author_website_url: ""
-
-author_work_experiences:
-            - company_name: SAP America
-              company_logo: sap.png
-              company_url: https://sap.com
-              designation: Principal Consultant
-              description: Worked on various Google Products
-              visibility: true
-            - company_name: JPMorgan Chase
-              company_logo: jpmc.png
-              company_url: https://jpmorgan.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
-              visibility: true
-
-author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
-                visibility: true
-
-author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
-                visibility: true
-
-# social links
-twitter_username: mattos_leonardo
-github_username:  leonardo-s-mattos
-linkedin_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
+share:
+  twitter_username: \#
+  fb_appid: 000000000000
 
 
-#for comments using disqus
-disqus_shortname: leo
+enableTags: true
+tagarray: []
 
-# wakatime username (coding activity)
-#wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# formspree (contact form)
-#formspree_email: johndoe@gmail.com
-
-# syntax highlighter
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# google analytics
-google_analytics: UA-46783401-10
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
-
-# algolia search
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
-
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-# Shop
-collections:
- - products
-
-# Gallery
-defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-
-# Build settings
-
-remote_theme: sujaykundu777/devlopr-jekyll
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-algolia
-  - jekyll-menus
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-destination: ./build
+gems: [jekyll-paginate, jekyll-gist]
