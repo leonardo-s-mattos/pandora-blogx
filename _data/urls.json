@@ -22,13 +22,8 @@
   },
   {
     "text": "Github",
-    "url": "/#",
-    "icon": "fa-github"
-  },
-  {
-    "text": "XML Feed",
-    "url": "/feed.xml",
-    "icon": "fa-feed",
+    "url":  "https://github.com/leonardo-s-mattos",
+    "icon": "fa-github",
     "target": _blank
   }
 ]

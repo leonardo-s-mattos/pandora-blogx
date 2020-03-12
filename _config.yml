@@ -1,12 +1,12 @@
-title: John Smith
-description: My Personal Blog
-author: John Smith
+title: Pandora Blogx
+description: My unpredictable box that might have my personal projects and playground, my thoughts and learinings.
+author: Leo Souza Mattos
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/codeasashu
-about: Freelance developer
+github: https://github.com/leonardo-s-mattos
+about: Senior Engineering Manager
 
-baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
-url: "https://codeasashu.github.io/hcz-jekyll-blog"
+baseurl: "https://leonardo-s-mattos.github.io/pandora-blogx"
+url: "https://leonardo-s-mattos.github.io/pandora-blogx"
 
 allowsearch: true
 
