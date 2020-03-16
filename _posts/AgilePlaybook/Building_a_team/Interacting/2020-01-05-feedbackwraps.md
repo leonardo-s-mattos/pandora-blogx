@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Building a high-performing team: Feedback wraps"
-date:   2020-01-0r 13:50:39
+date:   2020-01-05 13:50:39
 categories: building_a_team
 ---
 
