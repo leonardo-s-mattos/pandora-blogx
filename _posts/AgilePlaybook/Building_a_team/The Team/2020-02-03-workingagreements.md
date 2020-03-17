@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Working Agreements"
 date:   2020-02-03 13:50:39
-categories: building_a_team
+categories: team_building_playbook
 type: play
 ---
 

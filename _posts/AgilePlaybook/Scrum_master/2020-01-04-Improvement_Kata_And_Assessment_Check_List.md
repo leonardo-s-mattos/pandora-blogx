@@ -2,7 +2,7 @@
 layout: post
 title:  "Improvement Kata with Agility Assessment for Scrum Masters"
 date:   2020-01-04 13:50:39
-categories: scrum_master
+categories: team_building_playbook
 type: play
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Working with a dispersed and remote team"
 date:   2020-02-02 13:50:39
-categories: building_a_team
+categories: team_building_playbook
 type: play
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Index
+layout: posts_by_category
+title: Blog
+permalink: /blog/
 ---
 <div class="well">
     <div class="list-group">

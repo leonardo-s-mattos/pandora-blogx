@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Empowerment and Poker delegation"
 date:   2020-01-21 13:50:39
-categories: building_a_team
+categories: team_building_playbook
 type: play
 ---
 

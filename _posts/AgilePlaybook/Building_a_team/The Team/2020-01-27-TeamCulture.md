@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Surveying Team Culture"
 date:   2020-01-27 13:50:39
-categories: building_a_team
+categories: team_building_playbook
 type: play
 ---
 

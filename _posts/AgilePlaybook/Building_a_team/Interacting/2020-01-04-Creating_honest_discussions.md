@@ -2,8 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Having open discussions using supportive confrontation"
 date:   2020-01-03 13:50:39
-categories: building_a_team
-type: play
+categories: team_building_playbook
 ---
 
 Play: Building a high-performing team: Having open discussions using supportive confrontation

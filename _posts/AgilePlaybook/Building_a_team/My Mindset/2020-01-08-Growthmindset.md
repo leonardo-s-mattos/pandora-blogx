@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Growth Mindset"
 date:   2020-01-08 13:50:39
-categories: building_a_team
+categories: team_building_playbook
 type: play
 ---
 
