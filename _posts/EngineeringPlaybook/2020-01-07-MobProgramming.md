@@ -3,6 +3,7 @@ layout: post
 title:  "MOB Programming"
 date:   2020-01-07 13:50:39
 categories: Engineering_playbook
+type: play
 ---
 
 # Play : Mob Programming

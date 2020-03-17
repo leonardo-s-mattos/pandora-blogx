@@ -11,7 +11,7 @@ categories: Engineering_playbook
 Test driven development, or shortly TDD, is a software development process mainly used to cover the lowest part of the testing pyramid.  
 The outcome of this process is a very short development circle. 
 
-![TDDGraph](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/EngineeringPlaybook/images/TDDGraph.png)
+![TDDGraph](./images/TDDGraph.png)
 
 Let's imagine we want to implement a new class.  
 You start your development session by writing a very simple test. It should only check, if your class exists. As you haven't developed anything by now except the test itself, the test will turn red. Now we move on to our third bubble in the circle and implement the basic construct for our new class. After we rerun our test, it should turn green now. In our first few iterations there may not be enough code to already refactor it, but as you go further and repeat this process again and again you should also continuously refactor what you are working on. 

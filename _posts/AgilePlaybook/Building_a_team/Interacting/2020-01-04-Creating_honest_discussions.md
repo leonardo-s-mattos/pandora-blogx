@@ -3,6 +3,7 @@ layout: post
 title:  "Building a high-performing team: Having open discussions using supportive confrontation"
 date:   2020-01-03 13:50:39
 categories: building_a_team
+type: play
 ---
 
 Play: Building a high-performing team: Having open discussions using supportive confrontation
@@ -22,28 +23,8 @@ connections, but what truly makes a high-performing team, and how does one know?
 In this play below, we provide a framework for providing constructive feedback
 towards joint problem-solving.
 
->   Pro tip: One of the key differences in Product Teams versus Project teams is
->   that long-lived Product teams learn as they grow over a longer period of
->   time….
-
 **The content in this play is based on content derived from Hugh Keelan course
 on providing feedback at Stanford’s Graduate School of Business.**
-
-This play refers to the guardrails:
-
--   [Scrum Team](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Scrum+Team)
-
--   [Team Collaboration, Culture and
-    Mindset](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Team+collaboration%2C+culture+and+mindset)
-
--   [Inter-team
-    collaboration](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Inter-team+collaboration)
-
--   [Managing in an Agile
-    environment](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Managing+in+an+Agile+environment)
-
--   [Working
-    Agreement](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Working+Agreement)
 
 When to use it:
 ---------------
@@ -174,13 +155,13 @@ used.
 Please see the various supporting documents from Hugh Keelan such as:
 
 1. [Power Talk and Supportive
-confrontation](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/Interacting/8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf)
+confrontation](./8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf)
 
 2. [Gender and
-Feedback](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/Interacting/8-9-201813-0Gender%20%26%20Feedback.pdf)
+Feedback](./8-9-201813-0Gender%20%26%20Feedback.pdf)
 
 3. [Traps in the Feedback
-process](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/Interacting/8-9-201813-0Traps%20in%20the%20Feedback%20Process.pdf)
+process](./8-9-201813-0Traps%20in%20the%20Feedback%20Process.pdf)
 
 #### Running the basic supportive confrontation practice role play:
 
@@ -201,7 +182,7 @@ process](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/Ag
 
 >   Some additional variations include (in level of ratcheting up the levels)
 >   (for more detail see this
->   [link](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/Interacting/8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf))
+>   [link](./8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf))
 
 1.  This is the effect of your \___________\_ behavior on me, such as the
     statement, “I feel patronized and controlled when you interrupt”.

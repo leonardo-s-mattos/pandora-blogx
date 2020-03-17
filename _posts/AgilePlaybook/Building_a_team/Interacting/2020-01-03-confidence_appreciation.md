@@ -3,6 +3,7 @@ layout: post
 title:  "Building a high-performing team: Confidence & Appreciation"
 date:   2020-01-03 13:50:39
 categories: building_a_team
+type: play
 ---
 
 Play: Building a high-performing team: Confidence & Appreciation
@@ -27,17 +28,6 @@ understand what each other is working on.
 >   they may need to adapt their behavior ahead of time to have content as we’ll  
 >   outline later in this play. Suggested reminder 2 weeks, 1 week and 3 days
 >   before use.
-
-This play refers to the guardrails:
-
--   [Team Collaboration, Culture and
-    Mindset](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Team+collaboration%2C+culture+and+mindset)
-
--   [Inter-team
-    collaboration](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Inter-team+collaboration)
-
--   [Working
-    Agreement](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Working+Agreement)
 
 When to use it:
 ---------------

@@ -3,6 +3,7 @@ layout: post
 title:  "Event storming workshop"
 date:   2020-01-11 13:50:39
 categories: Product_management
+type: play
 ---
 
 # Play: Event storming workshop

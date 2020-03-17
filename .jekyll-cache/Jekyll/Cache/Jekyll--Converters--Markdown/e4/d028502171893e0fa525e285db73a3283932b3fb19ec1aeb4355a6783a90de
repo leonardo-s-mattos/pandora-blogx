@@ -1,0 +1,270 @@
+I"A5<h1 id="play--test-driven-development">Play : Test Driven Development</h1>
+
+<h2 id="what-is-it">What is it:</h2>
+<p>Test driven development, or shortly TDD, is a software development process mainly used to cover the lowest part of the testing pyramid.<br />
+The outcome of this process is a very short development circle.</p>
+
+<p><img src="./images/TDDGraph.png" alt="TDDGraph" /></p>
+
+<p>Let’s imagine we want to implement a new class.<br />
+You start your development session by writing a very simple test. It should only check, if your class exists. As you haven’t developed anything by now except the test itself, the test will turn red. Now we move on to our third bubble in the circle and implement the basic construct for our new class. After we rerun our test, it should turn green now. In our first few iterations there may not be enough code to already refactor it, but as you go further and repeat this process again and again you should also continuously refactor what you are working on.</p>
+
+<p>The main benefits of the TDD approach are:</p>
+
+<ol>
+  <li>very high test coverage on the unit test level</li>
+  <li>simpler software design</li>
+  <li>better maintainability</li>
+  <li>higher over all quality</li>
+</ol>
+
+<h2 id="when-to-use-it">When to use it:</h2>
+<p><strong>In general you could say: “Always go for TDD”. But let’s highlight some common situations.</strong></p>
+
+<p><strong>Starting a new project with no existing code.</strong> The dream of every developer becomes true! There is nothing you can break, no existing code yours should better match to regarding styling, no test you need to keep green, nothing that hinders you from being super creative and do whatever you want! Sounds like Disneyland to me.<br />
+Still, you should take a deep breathe and thing about the future of the project first. What could possibly go wrong, if you just start with whatever comes into your mind? I see things burn and … . No, that doesn’t sound like something you would like to achieve, does it?<br />
+That’s why you should start all projects with a plan. Or let’s even call it a vision. Where do you want to come out at the end? Do you want a super creative result? Yes, but do you want a messy creative result? Probably not.<br />
+You should take your time to think about how you want to tackle the upcoming problem. You could, for example, draw a graph with all the classes you may need and how they are connected to each other. An ULM-diagramm can be helpful here, too.<br />
+And now, finally, after we made all these fancy pancy plans, we go to our desk, sit down, pull the keyboard in front of us and start hacking the shit out of these keys!<br />
+No, actually this is probably not what you’re gonna do. Because now we can start our super simple development process we introduced above and write our first super tiny unit test. Then we run it, we write some small line of code, we run the test again, we code, and so on. Only a few lines of code at a time. No super fancy hacking here, sorry. But, <strong>TDD makes it super easy for you to stick with the plans you designed earlier</strong>.</p>
+
+<p><strong>Working on a problem in very sensible code.</strong> The more sensible a code part is, the more important are tests. Not only for you as a developer, also for your company who is selling this stuff to paying customers. Let’s imagine you need to touch code that is responsible for the successful start of a rocket. Are you really sure you want to start writing test AFTER you implemented all your changes? What if you forget to test one simple function, but that function has some undiscovered impact on other functions and then … BUMM! No, nobody wants that. <br />
+Wouldn’t it be a good idea to have a test already at hand for every line of code you are going to change? Being safe is never a bad idea.</p>
+
+<p><strong>Working on existing and badly maintained legacy code.</strong> We already talked about every developers dream, now let’s talk about the nightmare! Thousands and thousands lines of code, no or only few tests at all, so many different functionalities, nobody left in the company who was part of the development of this software. And now, you need to touch it!<br />
+It feels nearly the same as working on very sensible code. You have obviously no clue what could go wrong if you change something. Well, to be honest, you should first try to build up a safety-net before you start developing new content in legacy code. But as this might not always be possible, always try to go for a TDD approach. So that at least your new code will definitely be covered with as many tests as possible. Then, on a longer run, you will end up with a safety-net automatically.</p>
+
+<p><strong>Continue working on an agile project.</strong> If you jump into an agile project, there may already be many, many test. But there are never too many test. At least not in real life. Just remember, if you add new functionality, also add new test for it. And why not play it safe and directly add them during the implementation?</p>
+
+<h2 id="expected-outcome">Expected Outcome</h2>
+
+<ul>
+  <li>Very high test coverage on the unit test level:<br />
+By doing these short iterations by writing the code you will end up with lots and lots of unit tests.</li>
+  <li>Simpler software design:<br />
+To make everything easily testable with unit test you need to create simple structures and smaller functions.</li>
+  <li>Better maintainability:<br />
+Identifying bugs is easier. The test that ran red is probably covering only few lines of code. So, the chance that the bug is coming from these few lines is very high.</li>
+  <li>Higher over all quality:<br />
+Developers working in TDD care for their code!</li>
+  <li>Tests work as living documentation for other developers:<br />
+If your test cover every function in such detail, other developers can have a look into all the test to understand what these functions will deliver as results. Understanding code of somebody else gets much easier and a lot faster by having a high and detailed test coverage.</li>
+</ul>
+
+<h2 id="how-to-use-it">How to use it:</h2>
+
+<p>To really imagine how to write something in a test driven way, you can try out this simple step by step code example.<br />
+It is recommended, and probably also the easiest, to use TDD for writing Unit tests. If you want to also archive a good regression or integration test coverage, Behavior-Driven-Development with predefined test scenarios is the better approach. But this topic will have its own play.</p>
+
+<p>This Game is called <strong>Fizz-Buzz</strong> and is relatively simple. We want to print a Fizz, if a number is dividable by 3, a Buzz, id it contains a 3 and Fizz-Buzz, if both apply. Other numbers should be printed directly.</p>
+
+<p><em>Note: This example is written in JavaScript code, but can be applied on multiple other programming languages by simple adjusting the syntax differences. You may also need to start a local server, to run your code properly.</em></p>
+
+<ul>
+  <li>Open your preferred development environment.</li>
+  <li>Create a new file for your unit test. (e.g. <code class="highlighter-rouge">testFizzBuzz.js</code>)</li>
+  <li>Write your first unit test. It should expect that there exists a function (property of the object we placed it in. In our case an object called <code class="highlighter-rouge">controller</code>) called fizzBuzz.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz function should exist'", function(assert) {
+    assert.ok(controller.hasOwnProperty("fizzBuzz"), "There is a fizzBuzz function");
+});
+</code></pre></div></div>
+
+<p>This test will fail now after you executed it.</p>
+
+<p>We now write our matching code in another file (e.g. <code class="highlighter-rouge">fizzBuzz.js</code>):</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+        fizzBuzz: function () {}
+    }
+... 
+}		
+</code></pre></div></div>
+<p>Our test will run green!</p>
+
+<ul>
+  <li>Second round: fizzBuzz function should print out something.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out something", function(assert) {
+    assert.equal(controller.fizzBuzz(), "Hello", "fizzBuzz prints out something");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+        fizzBuzz: function () {
+            console.log("Hello");
+        }
+    }
+... 
+}		
+</code></pre></div></div>
+
+<ul>
+  <li>Third round: fizzBuzz function should print out handed parameter.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out something", function(assert) {
+    assert.equal(controller.fizzBuzz(1), "1", "fizzBuzz prints out parameter");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+	fizzBuzz: function (number) {
+            console.log(number);
+    }
+}
+... 
+}		
+</code></pre></div></div>
+
+<ul>
+  <li>Fourth round: Now we slowly come to the logic. We want to print a Fizz, if we enter a 3.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out fizz when 3 is parameter", function(assert) {
+    assert.equal(controller.fizzBuzz(3), "Fizz", "fizzBuzz prints out Fizz");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+        fizzBuzz: function (number) {
+            if (number = 3) {
+                console.log("Fizz");
+	    }
+            else (console.log(number);)
+	}
+    }
+... 
+}		
+</code></pre></div></div>
+
+<p>All our test should stay green now, also the one with the <strong>1</strong> as parameter.</p>
+
+<ul>
+  <li>Fifth round: We want to print a Buzz, if we enter a 9, because it’s dividable by 3.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out Buzz when 9 is parameter", function(assert) {
+    assert.equal(controller.fizzBuzz(9), "Buzz", "fizzBuzz prints out Buzz");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+   { 
+        fizzBuzz: function (number) {
+            if (number = 3) {
+            	console.log("Fizz");
+            }
+            elseif (number = 9) {
+            	console.log("Buzz");
+            }
+            else (console.log(number);)
+	}
+   }
+... 
+}		
+</code></pre></div></div>
+
+<ul>
+  <li>Sixth round: Now we want to be able to reserve a Buzz when we enter a 6. We need to adjust out case.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out Buzz when 6 is parameter", function(assert) {
+    assert.equal(controller.fizzBuzz(6), "Buzz", "fizzBuzz prints out Buzz");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+	fizzBuzz: function (number) {
+	    if (number = 3) {
+	        console.log("Fizz");
+	    }
+	    elseif (number % 3 = 0) {
+	        console.log("Buzz");
+	    }
+	    else (console.log(number);)
+	}
+    }
+... 
+}		
+</code></pre></div></div>
+<p>All our test should stay green now, also the one with the <strong>9</strong> as parameter.</p>
+
+<ul>
+  <li>Seventh round: 3 Should actually return a FizzBuzz and not only a Fizz.</li>
+</ul>
+
+<p>We can now refactor our existing test for parameter 3 with the correct expected result. If we wouldn’t refactor and write a new test instead, the old one would fail.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out FizzBuzz when 3 is parameter", function(assert) {
+    assert.equal(controller.fizzBuzz(3), "Buzz", "fizzBuzz prints out FizzBuzz");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+	fizzBuzz: function (number) {
+	    if (number % 3 == 0 &amp;&amp; number.toString().indexOf('3') &gt; -1) {
+	    	console.log("FizzBuzz");
+	    }
+	    elseif (number % 3 == 0) {
+	    	console.log("Buzz");
+	    }
+	    else (console.log(number);)
+	}
+    }
+... 
+}		
+</code></pre></div></div>
+
+<ul>
+  <li>Eighth round: We are missing the whole Fizz logic now.</li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>QUnit.test("fizzBuzz should print out Fizz when 13 is parameter", function(assert) {
+    assert.equal(controller.fizzBuzz(13), "Buzz", "fizzBuzz prints out Fizz");
+});
+</code></pre></div></div>
+
+<p>The matching code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ ...
+    { 
+	fizzBuzz: function (number) {
+	    if (number % 3 == 0 &amp;&amp; number.toString().indexOf('3') &gt; -1) {
+	    	console.log("FizzBuzz");
+	    }
+	    elseif (number % 3 == 0) {
+	    	console.log("Buzz");
+	    }
+	    elseif (number.toString().indexOf('3') &gt; -1) {
+	    	console.log("Fizz");
+	    }
+	    else (console.log(number);)
+	}
+    }
+... 
+}		
+</code></pre></div></div>
+
+<p><strong>And that’s it! We created a function with full test coverage!</strong></p>
+:ET

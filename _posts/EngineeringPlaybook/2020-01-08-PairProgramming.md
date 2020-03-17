@@ -3,6 +3,7 @@ layout: post
 title:  "Pair Programming"
 date:   2020-01-08 13:50:39
 categories: Engineering_playbook
+type: play
 ---
 
 # Play : Pair Programming
@@ -212,7 +213,7 @@ Editor settings and dotfiles can be easily shared across with the team and kept 
 
 Before the programming starts, it’s important for the navigator to ensure their pair knows and is able to clearly state the goals they are headed towards. Getting to that state might involve discussing details of a story or task with product or technical leaders of the project, and breaking down any larger items into bite-sized chunks. Usually, pairs will do that together at the beginning, and the navigator takes the responsibility of keeping a “goal stack” up-to-date as the work progresses:
 
-![Cards](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/EngineeringPlaybook/images/Cards.png)
+![Cards](./images/Cards.png)
 
 Working with a stack has another advantage: while thinking through the tasks needed to complete the programming session, the navigator has to flip between thinking backwards (in what state do we want to leave this system in?) and forwards (what do we need to do to get to the next step?), and we find that a stack lends itself to that kind of back-and-forth quite naturally.
 

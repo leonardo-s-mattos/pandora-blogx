@@ -3,6 +3,7 @@ layout: post
 title:  "Creating a product canvas"
 date:   2020-01-06 13:50:39
 categories: Product_management
+type: play
 ---
 
 # Play: Creating a product canvas

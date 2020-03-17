@@ -1,0 +1,167 @@
+I"�<h1 id="play--building-a-high-performing-team-working-with-a-dispersed-and-remote-team-non-co-located">Play : Building a high-performing team: Working with a dispersed and remote team (non co-located)</h1>
+
+<h2 id="what-is-it">What is it:</h2>
+
+<p>Working collaboratively with a remote team is one of the biggest challenges for
+any agile team. When you add to that global time zones, meeting schedules, cultural practices
+regional and local norms, there doesn’t seem to be anything close to a panacea or 
+silver bullet that solves for all of the issues with remote teams. We do however, strongly 
+advocate for teams to be co-located as a unit working face2face as much as is possible. 
+However, we also realize that this is not always possible. For example our own team,
+(the ADCC), is globally dispersed. The tips and tricks that we have found to produce quality 
+end results may be helpful, but nothing replaces true face to face time. For many teams the difference<br />
+that makes them high performing is the ability to connect in person, a dificult thing to do when team
+members are located globally.</p>
+
+<h2 id="when-to-use-it">When to use it:</h2>
+
+<ul>
+  <li>
+    <p>Hiring or creating Newly formed teams with remote workers (Storming/Forming stages).
+…and building and maintaining happiness may create trust and team
+cohesion, however, and again, this is not ideal or recommended, so if you are building a new team,
+it’s preferred that it be co-located.</p>
+  </li>
+  <li>
+    <p>Stable team working to improve global alignment, or working with other teams
+that have dependencies.</p>
+  </li>
+</ul>
+
+<h2 id="expected-outcomes">Expected outcomes:</h2>
+
+<ul>
+  <li>A team using the this play will arrive at a stable state of global
+collaboration and increased alignment.</li>
+</ul>
+
+<h2 id="how-to-execute-it">How to execute it:</h2>
+
+<ul>
+  <li>
+    <p>Recommend Time: As appropriate. It will often take a variety of experiments
+before the team finds their own balance.</p>
+  </li>
+  <li>
+    <p>Recommended update: As appropriate.</p>
+  </li>
+  <li>
+    <p>Difficulty level: 5/5 (to truly work well without burnout)</p>
+  </li>
+</ul>
+
+<h3 id="remote-team-play">Remote team play</h3>
+
+<p>With a remote team, as mentioned there is not a single set of actions you can
+take to get a globally team aligned easily. Below are some techniques that can
+be tried. The key principles should attempt to include:</p>
+
+<ul>
+  <li>
+    <p>Alignment of the team towards the same goal (e.g. not a bunch of individuals
+working on assigned tasks).</p>
+  </li>
+  <li>
+    <p>Ensuring high-levels of information flow, especially serendipitous
+connections</p>
+  </li>
+  <li>
+    <p>Real connections, where people have the opportunity to build trust and avoid
+the 5 dysfunctions.</p>
+  </li>
+  <li>
+    <p>Avoiding burnout, through sharing the burden of pain.</p>
+  </li>
+  <li>
+    <p>Awareness of fault lines and remote workers (e.g. if the majority of the
+team is co-located with a few that are always dialing in)</p>
+  </li>
+  <li>
+    <p>Respect and empathy for the individuals on the team.</p>
+  </li>
+</ul>
+
+<p><strong>Here are some tactics that can be experimented with to see if they work for
+your team:</strong></p>
+
+<ol>
+  <li>
+    <p>Avoid sending emails to individuals on the team unless necessary. Use
+“broadcast” methods, such as posting into a shared team slack or teams
+channel so that everyone can see or refer to.</p>
+  </li>
+  <li>
+    <p>Use information radiators such as Kanban boards, Mural, <a href="./2020-01-23-Team_Happiness_nikoniko.md">Niko-Niko happiness
+boards,</a>
+etc to stay aligned. Too much transparency and over-sharing information
+aren’t really a concern with dispersed teams.</p>
+  </li>
+  <li>
+    <p>Use global collaboration tools as much as possible. Mural, Skype, Zoom,
+Slack, Teams are all useful in the right situation.</p>
+  </li>
+  <li>
+    <p>Communicate in code – for development teams, clean code, behavior driven
+design, test driven design and higher automated test coverage can provide
+another way of collaboration. Modular design with defined end-points is
+preferred here.</p>
+  </li>
+  <li>
+    <p>Try not to bottleneck on skillsets in certain timezones. Using the
+<a href="./2020-01-20-Building_a_competency_map.md">competency
+map</a>
+with a regional dimension may help. Try to get as broadly skilled as
+possible to avoid wait time or lag times due to time zones.</p>
+  </li>
+  <li>
+    <p>Maintain visible and public contact lists. Use a service like pager duty for
+scheduling if needed.</p>
+  </li>
+  <li>
+    <p>Have rolling check-ins, e.g. APJ checks in with WDF at the end of their day,
+who then checks in with North America, and the end of the WDF day.</p>
+  </li>
+  <li>
+    <p>Run health checks and team culture surveys more frequently.</p>
+  </li>
+  <li>
+    <p>Invest more time into <a href="./2020-02-03-workingagreements.md">working
+agreements</a>.</p>
+  </li>
+  <li>
+    <p>Understand delegation and empowerment boundaries via <a href="./2020-01-21-poker_delegation_and_empowerment.md">poker
+delegation.</a></p>
+  </li>
+  <li>
+    <p>Share the burden of time-zones (e.g. shift painful meetings every other
+week)</p>
+  </li>
+  <li>
+    <p>Have a working agreement for video on during meetings unless outside normal
+working hours.</p>
+  </li>
+  <li>
+    <p>Acknowledge people when they sacrifice their time outside of their normal
+working hours.</p>
+  </li>
+  <li>
+    <p>When there are team meetings, but only a few remote workers, practice having
+everyone meet on their video chats so everyone is on an equal playing field
+during a call.</p>
+  </li>
+  <li>
+    <p>Remember to call on people not in the room during conference calls to get
+their opinion. (Out of sight often means out of mind)</p>
+  </li>
+  <li>
+    <p>If there is a physical celebration, try to make sure remote workers also
+have some way to participate.</p>
+  </li>
+  <li>
+    <p>Have virtual hangouts.</p>
+  </li>
+</ol>
+
+<p><strong>If you have other tips or tricks that have worked for you, feel free to add
+them to this list!</strong></p>
+:ET
