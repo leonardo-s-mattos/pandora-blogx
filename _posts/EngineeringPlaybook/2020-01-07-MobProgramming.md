@@ -2,7 +2,7 @@
 layout: post
 title:  "MOB Programming"
 date:   2020-01-07 13:50:39
-categories: Engineering_playbook
+categories: Engineering_Playbook
 type: play
 ---
 

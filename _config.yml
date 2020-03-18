@@ -5,8 +5,10 @@ logo: /assets/mypic.jpg
 github: https://github.com/leonardo-s-mattos
 about: Senior Engineering Manager
 
-baseurl: "https://leonardo-s-mattos.github.io/pandora-blogx"
-url: "https://leonardo-s-mattos.github.io/pandora-blogx"
+baseurl: "/pandora-blogx"
+#url: "http://localhost:4000"
+url: "https://leonardo-s-mattos.github.io"
+
 
 allowsearch: true
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Trusted Ten - Exploring and finding bias"
 date:   2020-02-02 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 type: play
 ---
 

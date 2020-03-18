@@ -2,7 +2,7 @@
 layout: post
 title:  "Refactoring"
 date:   2020-01-09 13:50:39
-categories: Engineering_playbook
+categories: Engineering_Playbook
 ---
 
 # Play: Refactoring

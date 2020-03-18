@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Mindfulness"
 date:   2020-01-06 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 ---
 Play: Building a high-performing team: Mindfulness
 ==================================================

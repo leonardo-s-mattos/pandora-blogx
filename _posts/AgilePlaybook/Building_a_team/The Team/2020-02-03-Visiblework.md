@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Making work visible and information radiators"
 date:   2020-02-03 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 type: play
 ---
 

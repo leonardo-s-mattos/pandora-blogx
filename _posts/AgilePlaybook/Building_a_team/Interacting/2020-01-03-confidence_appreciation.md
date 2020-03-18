@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Confidence & Appreciation"
 date:   2020-01-03 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 ---
 
 Play: Building a high-performing team: Confidence & Appreciation

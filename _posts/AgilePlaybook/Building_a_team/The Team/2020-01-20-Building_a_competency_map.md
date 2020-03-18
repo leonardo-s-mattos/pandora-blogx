@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Team Competency Map"
 date:   2020-01-08 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 type: play
 ---
 

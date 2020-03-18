@@ -2,7 +2,7 @@
 layout: post
 title:  "Building a high-performing team: Measuring Happiness"
 date:   2020-01-23 13:50:39
-categories: team_building_playbook
+categories: Team_Building_Playbook
 type: play
 ---
 
