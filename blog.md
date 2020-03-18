@@ -2,6 +2,7 @@
 layout: posts_by_category
 title: Blog
 permalink: /blog/
+categories: Articles
 ---
 <div class="well">
     <div class="list-group">
