@@ -3,23 +3,23 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Leonardo Souza Mattos
+    tagline: Experienced Senior Software Engineering Manager
+    avatar: mypic.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: leonardo.mattos@gmail.com
+    phone: +1 302 898 8448
+    website: leonardo-s-mattos.github.io/pandora-blogx #do not add http://
+    linkedin: leonardo-mattos-9668024
+    github: leonardo-s-mattos
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@mattos_leonardo'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -38,7 +38,7 @@ sidebar:
       - item: Youth Soccer Coach
         link:
 
-      - item: Girls Who Code - teaching your girls the
+      - item: Girls Who Code - club facilitator
         link:
 
       - item: Sports
@@ -47,73 +47,56 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      An exceptional Technical Professional with notable expertise developing and implementing complex technical solutions to drive process improvements, streamline business functions, and enhance system performance. Highly skilled in design and architecting resilient and high performant cloud base application, which proven record in on-premise to cloud re-platforming and adoption of multiple microservice base architecture.<br/>
+      10+ years of managing multiple global distributed teams with proficiency and proven leadership, keeping the participation and people development at highest level. Promoting highest and teach Agile, XP, and Lean concepts, principles and practices levels, increasing professionalism on software development and doing the right thing on the right way with Lean Inception, craftsmanship and outcome-driven development.<br/>
+      20+ years total of experience on end to end application development lifecycle
+        - Experience with distributed systems - REST API, API Gateways and microservices, SOA and Event-Driven architectures
+        - Expert in cross group communication, able to get buy-in from business, operations and peers.
+        - Result oriented, adaptable and comfortable dealing with ambiguity
+        - Full stack, hands on technical leadership for design and implementation of best solution for given problem. Guiding seniors and junior engineers, ensuring fault-tolerant and resilient architectures, applying best practices and architecture design patterns
+        - Experience managing projects and teams in Agile environment and levering it for continuous value delivery
+        - Experience designing and developing large scale, high volume transaction applications, handling multiple competing priorities in a fast-paced environment.<br/>
+      Conference speaker and active on Agile and DevOps communities.
+
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: B.S. in Computer Science
+      university: Faculdades Associadas de Sao Paulo
+      time: 2001 - 2004
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Bacharel degree at International College
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Director – Agile Delivery CoE
+      time: 2019 - 2020
+      company: SAP, Newtown Square - PA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Oversaw IT operations and daily functions for several high-performing software development and cross-functional product teams. Developed and implemented strategic plans to incorporate agile development to govern all software projects, to increase productivity and improve performance metrics. Acted as Senior Technical Coach, support the redesign of integration components for all SAP product Suite used by IT Organization. Design and implemented frameworks and tools for developers to accelerate delivery and ensure robust and reliable implementation.
+          - Sponsor and lead developer of technology refresh program, which retired 23 legacy components around SAP C/4 Hana modules from quote to finance processes. This initiative, besides providing more stability and fit for purpose of the overall components, supported the upscaling of all developers supporting this value stream. All the components develop with ReactJS-like front end ( UI5 ), Java and Spring back end, MongoDB and Hana databases and leveraged Cloud Foundry and different AWS services, like S3, Kinesis and Lambda.
+          - Lead design and development of self-service APIs to minimize the cross teams dependencies and reducing the bottlenecks on value delivery and program management from Sales Organization. Exposing S/4 Hana data via API and remodeling helper services, designed RestFul and GraphQL API ( for data querying ), running on Cloud Foundry, including Service Testing automation and Continuous delivery with Postman and Jenkins.
+          - Designed and Implemented the development coaching program which incorporated comprehensive learning (dojo) labs, to enhance skills in CI/CD, TDD, communication, pipelining, pair programming, and automation. Graduated several development teams in multiple locations, ultimately reducing overall development lead time from 32 days to 7 days on average
+          - Decreased the production error rate by 78% for all platform integration components running on Cloud by employing Chaos engineering principles, and spearheading the design and development of production testing automated components to validate software robustness and reliability.
+    - role: Senior Software Engineering Manager
+      time: 2013 - 2018
+      company: JPMorgan Chase, Newark - DE
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Governed a 53-member team with 6 managers tasked with supporting the end-to-end life cycle of a business-critical Securities Backlog platform for investment banking. Spearheaded initiative to develop and implement a new hiring strategy to onboard personnel at a new development hub in Delaware. Managed multiple distributed teams supporting the entire life cycle of a missing critical Securities Backlog platform for Investment Banking. Promoted a psychologically safe environment based on continuous learning on a generative environment based on trust. Facilitated simulations and games to reinforce behaviors and shape culture. Hold 1:1 and objective review meetings regularly and run team health and Westrum measurements regularly. Implemented quarterly improvement cycles which guided the way continuous learning and innovation and raised operational excellence levels.
+          - Successfully reduced annual infrastructure and licensing costs from $15M to $2.5M by migrating Global Securities Back Office Platform to the cloud, incorporating multiple micro services features
+          - Achieved USD 9MM in hardware costs and licensing on rebuild of documents and statements storage, utilizing blob storage for short and long term ( S3 and Glacier ) and developing my own storage gateway, provided API and SFTP interfaces to store regulatory documents, statements and contracts for different line of businesses. This solution retired a Windows base vendor product, eliminating the need for disk storage and windows servers, besides the licenses costs
+          - Lead the Payments Service redesign and implementation throughout the SDLC, including operations monitoring and observability and automated testing and release on Cloud Foundry. Solution scoped all phases of payments for all kind of Investment products with Swift and local clearings proprietary protocols. Exposed API to instruct and monitor payments state. All develop with Kafka, Spring Cloud, Flow, WebFlux and Security, Java, Cassandra database as backbones. The microservices were deployed in different availability zones, with automated failover mechanism for problems detection and automated spinning of new instances. This platform was supporting 500K+ transactions per day on a global scale.
+          - Defined an efficient hiring strategy for new development hub in Delaware. Restructured the self-managed and cross functional teams, reducing the need 5 onshore and 7 offshore resources
+          - Improved employee engagement and satisfaction metrics to 90% (18% above overall company’s average) by developing individual’s grown plan and goals on technical and career aspects and leading goals and skill development-based conversations on performance review
+          - Decreased cost of ownership, including infrastructure and license from US15MM to USD 2.5MM, while significantly increasing the business agility by archiving development lead time of 2 days by leading a re platforming program from on premise SOA Architecture with traditional Java/Spring web applications to cloud base for entire Global Securities Back Office Platform. The target architecture included multiple microservices architecture like event driven, SOA and event sourcing
+          - Designed and built a PaaS providing Jenkins as a Service on the Cloud initiative that supported 2000+ Bitbucket repos, enabling automated pipeline from code commit to production in less than 30 minutes. This corporate solution for Continuous Integration / Continuous Delivery build orchestration and automation of SDLC ensured compliance with agile and regulatory best practices, including build, testing, security scanning (Dynamic and Static), tollgate controls, configuration management, code quality control, telemetry and multi environment deployment.
+          - Designed and develop telemetry dashboard. This application, increased the observability of the application, decreasing the production incidents due to infrastructure or capacity fail by 50%
+          - Created and published reference architectures to scale the benefits of the cloud migration. This framework was used by different teams in LATAM and US regions for all in house x vendor integration, decreasing the cost of ownership in average by 40%
+    - role: Software Engineering Manager | Senior Engineer
+      time: 2006 - 2013
+      company: JPMorgan Chase, Santiago - Chile & Sao Paulo - Brazil
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Managed 2 cross functional teams - onshore and offshore - maintaining high standard levels of quality and state of the art technology stack. Developed and supported regional FI Securities back office platform. Worked closely with business managers and representatives to manage business road map and merge with architecture improvements initiatives
+          - Reduced operational work by 60% and lowered cost per trade by 85%, following the implementation of SOA-based investment backing Backoffice system in the LATAM Region, which support securities, FX, and money market products. Lead design and implementation of LATAM regional Securities Back Office platform, covering from trade capture to accounting functionalities. All original design on robust service-oriented architecture, with JMS communication with Mule connectors. The modular solution supported the Equities and Fixed Income volume from entire region, including local regulatory and clearing houses processes. The design included all business modeling from OO to database and leadership of 2 cross functional teams.
+          - Secured a $3M savings in infrastructure costs, by spearheading initiative to stabilize and optimize applications including implementing technology upgrades and automating critical processes.
+          - Achieved a 90% decrease in production bugs by automating all test levels, including regression testing, and minimizing manual user acceptance testing by employing ATDD and TDD using software tools such as Cucumber, Fitnesse, and Selenium
 projects:
     title: Projects
     intro: >
@@ -144,7 +127,7 @@ projects:
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
+      /*You can list your publications in this section. Lorem ipsum dolor sit
       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
       bibendum fringilla a eu lectus.
     papers:
@@ -167,23 +150,29 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: UNIX, Solaris, Windows 10, Mac OS
+        type: Platforms
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: REST API, API Gateways, SOA, Micro services Architecture (Event-Driven, Event Sourcing and Message-driven), Mule
+        type: Architectures
 
-      - name: Angular
-        level: 98%
+      - name: Java, Python and Groovy ; Spring Framework Suite including Cloud, Boot, Integration and Security; ReactJS; JSF; Bootstrap
+        type: Languagues and Frameworks
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Cloud Foundry, Docker and Mesos/Mesosphere; Kubernetes; AWS (ECS, S3, DynamoDB, Cognito, API Gateway, Lambda); Kafka; Redis; RabbitMQ;
+        type: Cloud
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: SQL Server; Oracle; MongoDB; Cassandra
+        type: Databases
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Dynatrace; AppDynamics;  Nagios; CloudWatch
+        type: Operations
+
+      - name: TDD, ATDD, Selenium, Fitnesse and Cucumber, Postman, JMeter/ BlazeMeter; Jira, Jenkins, SonarQube, Bitbucket, SeleniumGrid; Kube Monkey, Istio and Chaos Toolkit;
+        type: DevOps
+
+      - name: Git (GitHub and Bitbucket); Gerrit;
+        type: Source Control
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

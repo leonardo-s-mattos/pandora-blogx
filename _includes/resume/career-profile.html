@@ -2,13 +2,23 @@
 {% if career-profile %}
 <section class="section summary-section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fa fa-circle fa-stack-2x"></i>
-      <i class="fa fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
-  </h2>
+  <div class="section-title">
+      <h5>
+          <span class="fa-stack fa-xs">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-download fa-stack-1x fa-inverse"></i>
+          </span>
+        Download the docx version <a href="#">here </a>
+      </h5>
+      <h2>
+        <span class="fa-stack fa-xs">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-user fa-stack-1x fa-inverse"></i>
+        </span>
+        {{ career-profile.title }}
+      </h2>
+
+  </div>
 
   <div class="summary">
     {{ career-profile.summary | markdownify }}

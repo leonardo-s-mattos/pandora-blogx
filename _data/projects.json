@@ -9,26 +9,28 @@
 	{
 		"name": "My Personal Budget",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "https://github.com/leonardo-s-mattos/my-personal-budget",
 		"date": "Mar 2020",
 		"tags": ["Javascript","ReactJS","API", "Cloud Foundry"]
 	},
 	{
 		"name": "My Personal Budget - Background Workers",
 		"image": "placeholder.jpg",
-		"url": "#",
+		"url": "https://github.com/leonardo-s-mattos/mpb-background-workers",
 		"date": "Mar 2020",
-		"tags": ["Lambada", "API", "AWS", "Cloud"]
+		"tags": ["Lambda", "API", "AWS", "Cloud"]
 	},
 	{
 		"name": "Estimation poker API",
 		"image": "placeholder.jpg",
+		"url": "https://github.com/leonardo-s-mattos/estimation-poker-api",
 		"date": "Feb 2020",
 		"tags": ["API","Java", "Cloud"]
 	},
 	{
 		"name": "Sandbox",
 		"image": "placeholder.jpg",
+		"url": "https://github.com/leonardo-s-mattos/sandbox",
 		"date": "Oct 2018",
 		"tags": ["Code Kata","Java"]
 	}
