@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index
+title: Home
 ---
 <div class="well">
     <div class="list-group">
@@ -32,7 +32,7 @@ title: Index
         <li class="previous disabled"><span aria-hidden="true">&laquo;</span></li>
       {% endif %}
 
-      <li><a href="/">First</a></li>
+      <li><a href="{{ site.baseurl }}/">First</a></li>
 
       {% for page in (1..paginator.total_pages) %}
         {% if page == paginator.page %}
@@ -40,7 +40,7 @@ title: Index
              <a>{{ page }}<span class="sr-only">(current)</span></a>
           </li>
         {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
+          <li><a href="{{ site.baseurl}}/">{{ page }}</a></li>
         {% else %}
           <li>
             <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>

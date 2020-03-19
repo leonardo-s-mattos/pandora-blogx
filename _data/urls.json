@@ -12,7 +12,7 @@
   },
   {
     "text": "Blog",
-    "url": "/blog/",
+    "url": "/category/Articles",
     "icon": "fa-comments"
   },
   {
@@ -22,7 +22,7 @@
   },
   {
     "text": "Resume",
-    "url": "/#",
+    "url": "/resume",
     "icon": "fa-graduation-cap",
   },
   {
