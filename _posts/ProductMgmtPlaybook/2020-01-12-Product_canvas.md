@@ -58,7 +58,7 @@ It also serves as input for the Product Canvas. Both are the responsibility of t
 
 In this activity it's very common that the resulting sentence is senseless . Ergo, after doing the third step, get the team to work together to form a coherent sentence, using and altering the previous results as necessary.
 
-![Product Vision Result](./images/Product%20Vision%20result.png)
+![Product Vision Result]({{site.baseurl}}/assets/images/Product%20Vision%20result.png)
 
 #### Product Is - Is not - Does - Does not
 
@@ -69,7 +69,7 @@ Sometimes, it’s easier to describe something by saying what it isn't. This act
 3. Ask each participant to describe the product by putting post-its onto the corresponding areas.
 4. Read and group similar notes.
 
-![Is-IsNot-Does-DoesNot](./images/Is-isnot.png)
+![Is-IsNot-Does-DoesNot]({{site.baseurl}}/assets/images/Is-isnot.png)
 
 This activity helps to explain the product. Afterwards the participants usually have formed a consensus view on what the product does as well as what the product doesn’t do. We can also clarify strategic decisions, such as things the product will never do.
 
@@ -79,7 +79,7 @@ Now its the time to place all the discovery and definitions about the product on
 
 Product Canvas combines form and function, a structure together with suggested techniques. The following diagram and the text below the sections of the canvas.
 
-![Product Canvas Template](./images/Product_Canvas_Template.png)
+![Product Canvas Template]({{site.baseurl}}/assets/images/Product_Canvas_Template.png)
 
 ##### Sections explained
 
@@ -99,7 +99,7 @@ None of these techniques are mandatory, of course. They rather provide you with 
 
 The Product Details provide a goal for the next iteration and just enough implementable items to reach the goal, for instance, to address a risk and to acquire relevant knowledge, or to complete a feature. Depending on the goal, I use different techniques to capture the implementable items. For goals that require coding, ready stories are very helpful. These are small, detailed stories that feed the next cycle and that help create a product increment or minimal viable product (MVP). They are derived from the epics, and are necessary to reach the sprint goal. Make sure you write acceptance criteria for your ready stories. Order the implementable items from one to n, for instance, first, second, third, and so on, to maximise the chances that you reach your goal.
 
-![Product Canvas](./images/Product_Canvas.png)
+![Product Canvas]({{site.baseurl}}/assets/images/Product_Canvas.png)
 
 
 #### References

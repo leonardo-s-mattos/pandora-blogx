@@ -90,7 +90,7 @@ doALotOfStuff([1,2,3], 5, 6);
 
 By giving each used parameter an own name it is easier to understand, that we are using different values here. To name the parameter of two different functions the same could lead to the conclusion, that they have the same value. That's not the case in this example.  
 What do you think regarding performance? Is this a clean code example or do you still discover some room for improvements?  
-In JavaScipt `forEach` indicates a loop. That means, `calc` is newly defined in every loop step. That's not really clean.
+In JavaScript `forEach` indicates a loop. That means, `calc` is newly defined in every loop step. That's not really clean.
 
 ```
 function doALotOfStuff (aNumbers, iOne, iTwo) {

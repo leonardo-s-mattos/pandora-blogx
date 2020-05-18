@@ -44,11 +44,6 @@ mindset and in a culture of exploration.
 >   that long-lived Product teams learn as they grow over a longer period of
 >   time….
 
-This play refers to the guardrails:
-
--   [Team Collaboration, Culture and
-    Mindset](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Team+collaboration%2C+culture+and+mindset)
-
 When to use it:
 ---------------
 
@@ -76,16 +71,12 @@ How to execute it:
 ### Curiosity and Novelty play:
 
 Developing curiosity and novelty cannot be done via a single specific method,
-however, there are some tools that can be helpful. I’d highly recommend you read the
-series of blogs posts by SAP IT’s own Martin Springer on an [innovation
-culture.](https://jam4.sapjam.com/blogs/show/JNZcmVrVXTEBQZQrkk2aqh?_lightbox=true)
+however, there are some tools that can be helpful. 
 
 In addition, these techniques may prove to be helpful from a tactical
 perspective in cases where we are stymied by passion or emotion:
 
--   [This course on critical
-    thinking](https://performancemanager5.successfactors.eu/sf/learning?destUrl=https%3a%2f%2fsap%2eplateau%2ecom%2flearning%2fuser%2fdeeplink_redirect%2ejsp%3flinkId%3dITEM_DETAILS%26componentID%3dLYNDA_13574%26componentTypeID%3dCOURSE%26revisionDate%3d1479204741000%26fromSF%3dY&company=SAP&_s.crb=UN7qIonOzUtql7i2dmxRYgfBtSY%253d)
-    *on successmap including:*
+-   Critical Thinking techniques and tools:
 
     -   The “5 Whys”
 

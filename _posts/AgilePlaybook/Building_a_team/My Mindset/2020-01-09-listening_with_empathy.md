@@ -29,10 +29,6 @@ sharing of ideas.
 >   that long-lived Product teams learn as they grow over a longer period of
 >   time….
 
-This play refers to the guardrails:
-
--   [Team Collaboration, Culture and
-    Mindset](https://wiki.wdf.sap.corp/wiki/display/agiletrans/Team+collaboration%2C+culture+and+mindset)
 
 When to use it:
 ---------------
@@ -40,9 +36,6 @@ When to use it:
 -   At all times with all teams, in all stages of capability and maturity
     levels.
 
--   This play works in parallel with the other “[My
-    Mindset](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/tree/master/AgilePlaybook/Building_a_team/My%20Mindset)”
-    plays
 
 Expected outcomes:
 ------------------
@@ -74,9 +67,7 @@ How to execute it:
     need improvement in:
 
     1.  When listening, does my mind jump to a response? Does the speaker have
-        my undivided attention (Note: using the [mindfulness
-        play](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/My%20Mindset/Mindfulness.md)
-        is useful here)
+        my undivided attention
 
     2.  Do I dedicate enough time to be fully present to the conversation?
 
@@ -93,10 +84,7 @@ How to execute it:
 
     8.  Do I follow-up on a topic?
 
-    9.  Do I use open ended questions without grilling the subject? ([novelty
-        and curiosity
-        play](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/blob/master/AgilePlaybook/Building_a_team/My%20Mindset/novelty_curosity.md)
-        may be useful here)
+    9.  Do I use open ended questions without grilling the subject?
 
     10. Do I feel the need to fill silence?
 

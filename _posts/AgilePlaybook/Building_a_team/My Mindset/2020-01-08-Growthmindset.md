@@ -35,10 +35,6 @@ When to use it:
 -   At all times with all teams, in all stages of capability and maturity
     levels.
 
--   This play works in parallel with the other “[My
-    Mindset](https://github.wdf.sap.corp/IT-Agile-DevOps-CC/Playbooks/tree/master/AgilePlaybook/Building_a_team/My%20Mindset)”
-    plays
-
 Expected outcomes:
 ------------------
 
@@ -63,8 +59,8 @@ How to execute it:
 
 2.  **Examine this graphic and slide:**
 
-![Chart](./images/growthmindset.jpg)
-![Slide](./images/growthmindset_characteristics.png)
+![Chart]({{site.baseurl}}/assets/images/images/growthmindset.jpg)
+![Slide]({{site.baseurl}}/assets/images/images/growthmindset_characteristics.png)
 
 
 

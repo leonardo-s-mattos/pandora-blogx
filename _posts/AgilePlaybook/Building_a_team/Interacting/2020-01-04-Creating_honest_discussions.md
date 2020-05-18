@@ -91,7 +91,7 @@ is in his mind. Person B behaves and interacts with Person A through behavior,
 actions, words. Person A is impacted by those behavior, actions and words, and
 in her reality, has feelings, reactions and responses.
 
-![Realtities](./images/3realities.jpg)
+![Realtities]({{site.baseurl}}/assets/images/3realities.jpg)
 
 While each person is an expert in his or her own reality, each can never
 actually know the other’s *INTENT* or *IMPACT* of the shared reality and should
@@ -153,13 +153,13 @@ used.
 Please see the various supporting documents from Hugh Keelan such as:
 
 1. [Power Talk and Supportive
-confrontation](./8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf)
+confrontation]({{site.baseurl}}/assets/docs/8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf)
 
 2. [Gender and
-Feedback](./8-9-201813-0Gender%20%26%20Feedback.pdf)
+Feedback]({{site.baseurl}}/assets/docs/8-9-201813-0Gender%20%26%20Feedback.pdf)
 
 3. [Traps in the Feedback
-process](./8-9-201813-0Traps%20in%20the%20Feedback%20Process.pdf)
+process]({{site.baseurl}}/assets/docs/8-9-201813-0Traps%20in%20the%20Feedback%20Process.pdf)
 
 #### Running the basic supportive confrontation practice role play:
 
@@ -180,7 +180,7 @@ process](./8-9-201813-0Traps%20in%20the%20Feedback%20Process.pdf)
 
 >   Some additional variations include (in level of ratcheting up the levels)
 >   (for more detail see this
->   [link](./8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf))
+>   [link]({{site.baseurl}}/assets/docs/8-9-201813-0Power%20Talk_A%20Hands%20on%20Guide%20to%20Supportive%20Confrontation.pdf))
 
 1.  This is the effect of your \___________\_ behavior on me, such as the
     statement, “I feel patronized and controlled when you interrupt”.
