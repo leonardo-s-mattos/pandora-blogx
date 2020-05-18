@@ -111,7 +111,7 @@ To put it simply, you can start grouping together modules with an element called
 
 Then you can use arrows to begin context mapping—in other words, to show how the modules within a bounded context interact with other contexts. For example, you might have grouped together commands, reactions, and events that deal with payment. The payment context is linked to the shipping context, because once a payment is processed, the system needs to fire a command to ship the product that has been ordered.
 
-![event storming domain events and commands]({{site.baseurl}}/assets/images/aggregation_event_storming.webp)
+![event storming domain events and commands]({{site.baseurl}}/assets/images/aggregate_event_storming.webp)
 
 
 #### **Takeaways – Facilitation Tips and Tricks **
