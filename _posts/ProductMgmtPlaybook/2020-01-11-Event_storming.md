@@ -83,7 +83,7 @@ The first step is to begin identifying events. Events are “things that happen�
 To mark an event on your timeline, use an orange sticky note (or whatever color code you’ve agreed on). In Mural, you can apply the same traditional color coding and shapes to customize the process flow.
 
 As your team adds events to the canvas, start organizing them in sequential order over time.
-![event storming domain events](./assets/images/events.webp)
+![event storming domain events](images/events.webp)
 
 
 ##### **Connect domain events to commands**
