@@ -31,8 +31,22 @@
 		"name": "Sandbox",
 		"image": "placeholder.jpg",
 		"url": "https://github.com/leonardo-s-mattos/sandbox",
-		"date": "Oct 2018",
+		"date": "Apr 2020",
 		"tags": ["Code Kata","Java"]
+	},
+	{
+		"name": "Sandbox C++",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/leonardo-s-mattos/sandbox",
+		"date": "Mar 2020",
+		"tags": ["Code Kata","C++"]
+	},
+	{
+		"name": "Hexagonal Architecture with Java",
+		"image": "placeholder.jpg",
+		"url": "https://github.com/leonardo-s-mattos/hexagonal",
+		"date": "Apr 2020",
+		"tags": ["Hexagonal","Java", "Micro Service", "Spring"]
 	}
 
 ]
