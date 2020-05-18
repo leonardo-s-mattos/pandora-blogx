@@ -101,6 +101,6 @@ Try to be as concrete a possible about what you expect to be the result of the d
  
 ### Implement Tests
 
-There will be another Play explicitly covering how you could write test directly using the Given-When-Then style requirements in your UI5 Application using [OPA5](https://sapui5.hana.ondemand.com/#/topic/2696ab50faad458f9b4027ec2f9b884d) with [Gherkin](https://cucumber.io/docs/gherkin/reference/). ([Use OPA with Gherkin](https://sapui5.hana.ondemand.com/#/topic/45ac9f19d9414b30b121c6e00f57433c))   
- 
+There will be another Play explicitly covering how you could write test directly using the Given-When-Then style requirements In Java 8 with [Gherkin](https://cucumber.io/docs/gherkin/reference/). 
+
 Other tools that support this type of test development are for example: [Cucumber](https://cucumber.io/), [JBehave](https://jbehave.org/), [RSpec](https://rspec.info/)

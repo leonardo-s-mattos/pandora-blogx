@@ -14,7 +14,7 @@ What is it:
 
 Measuring team happiness and knowing when to course correct and what tp correct 
 is easy when it is based off the team’s sentiment. This is extremely useful for 
-maintaining a high-performing team. While SAP engages in an annual employee engagement 
+maintaining a high-performing team. While engaging in an annual employee engagement 
 survey, using a frequent sentiment analysis helps the team learn, supports their work 
 efforts and allows them to collaborate with each other on a more personal basis. One way 
 to do this is to use the niko-niko board, which explicitly makes people’s sentiments visible 

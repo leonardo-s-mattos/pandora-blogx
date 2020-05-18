@@ -37,7 +37,7 @@ When to use it:
     transparent, and builds trust, which are key for aligning towards the team’s
     goal.
 
--   Team with lower than SAP IT average westrum culture scores. Applying this
+-   Team with low average westrum culture scores. Applying this
     play helps create a framework for better dialog around joint problems.
 
 Expected outcomes:
